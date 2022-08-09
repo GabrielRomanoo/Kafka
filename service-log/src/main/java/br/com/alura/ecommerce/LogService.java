@@ -1,11 +1,11 @@
 package br.com.alura.ecommerce;
 
+import java.util.Map;
+import java.util.regex.Pattern;
+
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.common.serialization.StringDeserializer;
-
-import java.util.Map;
-import java.util.regex.Pattern;
 
 public class LogService {
 
