@@ -25,7 +25,9 @@
         <module>service-new-order</module>
         <module>common-kafka</module>
     <module>service-users</module>
-  </modules>
+    <module>service-http</module>
+    <module>service-http-ecommerce</module>
+    </modules>
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.apache.kafka/kafka-clients -->
